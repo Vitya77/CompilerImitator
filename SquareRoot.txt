@@ -1,0 +1,7 @@
+read> a;
+read> x;
+while [x*x-2*a+(a*a)/(x*x)]{
+	x = 0.5*(x+a/x);
+	write> x;
+}}
+write> x;
